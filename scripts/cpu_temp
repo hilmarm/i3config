@@ -1,0 +1,6 @@
+#!/bin/bash
+# Displays the default device, volume, and mute status for i3blocks
+
+t0 = `cat /sys/devices/platform/coretemp.0/hwmon/hwmon2/temp0_input`
+echo "$t0"
+
